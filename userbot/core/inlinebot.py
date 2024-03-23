@@ -478,16 +478,13 @@ async def inline_handler(event):
             await event.answer([result] if result else None)
         elif string == "pmpermit":
             result = await pmpermit_article(event)
-            if result and result.title:
-            await event.answer([result])
+            await event.answer([result] if result else None)
         elif string == "":
             results = await inline_popup_info(event, builder)
-            results_with_title = [r for r in results if r.title]
-            await event.answer(results_with_title)
+            await event.answer(results)
     else:
         result = await deploy_article(event)
-        if result and result.title:
-        await event.answer([result])
+        await event.answer([result] if result else None)
 
 
 async def youtube_data_article(event, str_y):
