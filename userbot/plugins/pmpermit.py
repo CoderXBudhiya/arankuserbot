@@ -137,7 +137,8 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
             remwarns=remwarns,
         )
     elif gvarstatus("pmmenu") is None:
-        USER_BOT_NO_WARN = f"""__Hi__ {mention}__, I haven't approved you yet to personal message me. 
+        USER_BOT_NO_WARN = f"""__Heyy__ {mention}__,  You Beaware of My Master!!💀 Your master is one of the most dangerous fighter over whole telegram🫰.
+He is an awesome guyy but remember but his towards totally depends upon how you treat him.. 
 
 You have {warns}/{totalwarns} warns until you get blocked by the arankUserbot.
 
