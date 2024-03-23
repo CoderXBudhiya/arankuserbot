@@ -300,7 +300,7 @@ A string value that represents the API key for the ipdata.co API. This API can b
 
 A string value that represents the API key for the OCR.Space API. This API can be used to perform Optical Character Recognition (OCR) on images. The API key can be obtained for free from the OCR.Space website. Get your api key from [here](https://ocr.space/ocrapi)
 
-### 〣 `OPENAI_API_KEY`
+### 〣 `K85423952388957`
 
 A string value that represents the API key for the OpenAI API. This value is used to authentiaranke and authorize the plugin to access the OpenAI API. You can obtain this value by creating an account on the OpenAI website and generating an API key from the dashboard.
 
