@@ -55,12 +55,12 @@ async def amireallyalive(event):
         ANIME = f"**“{data['quote']}” - {data['character']} ({data['anime']})**"
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    arankevent = await edit_or_reply(event, "`Checking...`")
+    arankevent = await edit_or_reply(event, "`so here you go kanishka represents...`")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "  ✥ "
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**✮ MY BOT IS RUNNING SUCCESSFULLY ✮**"
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "  => "
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**❌ Attention please ❌**"
     arank_IMG = Config.ALIVE_PIC
     caption = arank_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
@@ -95,20 +95,20 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**{EMOJI} Database :** `{dbhealth}`
-**{EMOJI} Telethon Version :** `{telever}`
-**{EMOJI} arankuserbot Version :** `{arankver}`
-**{EMOJI} Python Version :** `{pyver}`
-**{EMOJI} Uptime :** `{uptime}`
-**{EMOJI} Master:** {mention}"""
+**{EMOJI} Who am I :** `So Mr/Miss U wanna Know me then see above pic which is telling about me`
+**{EMOJI} Knock Knock :** `Who's There? Father, Father Who? Your GodFather`
+**{EMOJI} Behaviour :** `Ahh! Babess My Behaviour Depends On Your Actions`
+**{EMOJI} Love :** `Loyality In My Blood Sincerity In My Heart Wanna Test Me? Nah Nah Iam Not A Question Paper`
+**{EMOJI} Courage :** `Fight Anyone Without Scared Beacause Iam From Your Father's Clan Named Jungli`
+**{EMOJI} Your Father:** {mention}"""
 
 
 def arankalive_text():
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "  ✥ "
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "  => "
     arank_caption = "**arankuserbot is Up and Running**\n"
-    arank_caption += f"**{EMOJI} Telethon version :** `{version.__version__}\n`"
-    arank_caption += f"**{EMOJI} arankuserbot Version :** `{arankversion}`\n"
-    arank_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
+    arank_caption += f"**{EMOJI} Knock Knock :** `{{Who's There? Father, Father Who? Your GodFather}}\n`"
+    arank_caption += f"**{EMOJI} Behaviour :** `Ahh! Babess My Behaviour Depends On Your Actions`\n"
+    arank_caption += f"**{EMOJI} Courage :** `{{Fight Anyone Without Scared Because I am From Your Father's Clan Named Jungli()}}\n`"
     arank_caption += f"**{EMOJI} Master:** {mention}\n"
     return arank_caption
 
