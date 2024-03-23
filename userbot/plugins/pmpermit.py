@@ -140,13 +140,13 @@ async def do_pm_permit_action(event, chat):  # sourcery no-metrics
         USER_BOT_NO_WARN = f"""__Heyy__ {mention}__,  You Beaware of My Master!!💀 Your master is one of the most dangerous fighter over whole telegram🫰.
 He is an awesome guyy but remember but his towards totally depends upon how you treat him.. 
 
-You have {warns}/{totalwarns} warns until you get blocked by the arankUserbot.
+You Have {warns}/{totalwarns} Warns Until You Get Blocked By Your Father Who Made Me.
 
-Choose an option from below to specify the reason of your message and wait for me to check it. __⬇️"""
+Attention please ❌❌.You know what bestest userbot of ever has been successfully created by us.We are going to launch the most marvellous userbot of ever the"Jungli Userbot""""
     else:
         USER_BOT_NO_WARN = f"""__Hi__ {mention}__, I haven't approved you yet to personal message me.
 
-You have {warns}/{totalwarns} warns until you get blocked by the arankUserbot.
+You Have {warns}/{totalwarns} Warns Until You Get Blocked By Your Father Who Made Me.
 
 Don't spam my inbox. say reason and wait until my response.__"""
     addgvar("PM_TEXT", USER_BOT_NO_WARN)
