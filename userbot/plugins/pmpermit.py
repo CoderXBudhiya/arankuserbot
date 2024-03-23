@@ -142,7 +142,7 @@ He is an awesome guyy but remember but his towards totally depends upon how you 
 
 You Have {warns}/{totalwarns} Warns Until You Get Blocked By Your Father Who Made Me.
 
-Attention please ❌❌. You know what? The best userbot ever has been successfully created by us. We are going to launch the most marvelous userbot ever, the "Jungli Userbot".
+Attention please ❌❌. You know what? The best userbot ever has been successfully created by us. We are going to launch the most marvelous userbot ever, the Jungli Arank Userbot".
     else:
         USER_BOT_NO_WARN = f"""__Hi__ {mention}__, I haven't approved you yet to personal message me.
 
